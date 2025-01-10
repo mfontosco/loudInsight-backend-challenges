@@ -1,0 +1,2 @@
+[2025-01-10 08:11:09] ERROR: Error adding category "Spells": E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "Spells" }
+[2025-01-10 08:11:09] ERROR: Error in createCategory: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "Spells" }

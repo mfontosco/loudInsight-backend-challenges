@@ -1,0 +1,60 @@
+[2025-01-10 08:10:55] INFO: Server running on port 5000
+[2025-01-10 08:11:03] INFO: MongoDB connected successfully!
+[2025-01-10 08:11:09] ERROR: Error adding category "Spells": E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "Spells" }
+[2025-01-10 08:11:09] ERROR: Error in createCategory: E11000 duplicate key error collection: test.categories index: name_1 dup key: { name: "Spells" }
+[2025-01-10 08:11:30] INFO: Category "Spell" created successfully
+[2025-01-10 08:11:30] INFO: Category created: {
+  name: 'Spell',
+  path: 'Spell',
+  _id: new ObjectId('6780c8229e2f3cfbee0c7160'),
+  createdAt: 2025-01-10T07:11:30.587Z,
+  updatedAt: 2025-01-10T07:11:30.587Z,
+  __v: 0
+}
+[2025-01-10 08:11:59] INFO: Retrieved subcategories under "Spells"
+[2025-01-10 08:11:59] INFO: Subcategories retrieved: [
+  {
+    _id: new ObjectId('677fbaff8b2c6a01272639a8'),
+    name: 'Fire Spells',
+    path: 'Spells.Fire Spells',
+    createdAt: 2025-01-09T12:03:11.623Z,
+    updatedAt: 2025-01-09T12:03:11.623Z,
+    __v: 0
+  },
+  [length]: 1
+]
+[2025-01-10 08:12:10] INFO: Retrieved subcategories under "Spell"
+[2025-01-10 08:12:10] INFO: Subcategories retrieved: [ [length]: 0 ]
+[2025-01-10 08:14:30] INFO: Subcategory "Fire Spell" added under "Spell"
+[2025-01-10 08:14:30] INFO: Subcategory created: {
+  name: 'Fire Spell',
+  path: 'Spell.Fire Spell',
+  _id: new ObjectId('6780c8d69e2f3cfbee0c7167'),
+  createdAt: 2025-01-10T07:14:30.328Z,
+  updatedAt: 2025-01-10T07:14:30.328Z,
+  __v: 0
+}
+[2025-01-10 08:14:51] INFO: Retrieved subcategories under "Spell"
+[2025-01-10 08:14:51] INFO: Subcategories retrieved: [
+  {
+    _id: new ObjectId('6780c8d69e2f3cfbee0c7167'),
+    name: 'Fire Spell',
+    path: 'Spell.Fire Spell',
+    createdAt: 2025-01-10T07:14:30.328Z,
+    updatedAt: 2025-01-10T07:14:30.328Z,
+    __v: 0
+  },
+  [length]: 1
+]
+[2025-01-10 08:15:02] INFO: Retrieved subcategories under "Spells"
+[2025-01-10 08:15:02] INFO: Subcategories retrieved: [
+  {
+    _id: new ObjectId('677fbaff8b2c6a01272639a8'),
+    name: 'Fire Spells',
+    path: 'Spells.Fire Spells',
+    createdAt: 2025-01-09T12:03:11.623Z,
+    updatedAt: 2025-01-09T12:03:11.623Z,
+    __v: 0
+  },
+  [length]: 1
+]
