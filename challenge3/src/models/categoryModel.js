@@ -9,6 +9,5 @@ const categorySchema = new mongoose.Schema(
 );
 
 // Only define the index once here
-categorySchema.index({ path: 1 }); // Indexing for efficient lookups
-
+categorySchema.index({ path: 1 });
 module.exports = mongoose.model('Category', categorySchema);

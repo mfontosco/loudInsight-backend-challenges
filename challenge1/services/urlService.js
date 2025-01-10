@@ -19,7 +19,7 @@ class UrlService {
       const shortId = generateUniqueId();
       this.urlMap.set(shortId, longUrl);
 
-      // Log creation
+     
       logger.info(`Short URL created: ${shortId} -> ${longUrl}`);
       return shortId;
    }
